@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'Nicomoji';
+  src: url('NicoMoji-Regular.ttf');
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Sofia;
+  src: url(Sofia-Regular.ttf);
+}
+@font-face {
+  font-family: Sofia;
+  src: url(Sofia-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsBold;
+  src: url(Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: PoppinsExtraBold;
+  src: url(Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: MirzaBold;
+  src: url(Mirza-Bold.ttf);
+}
+@font-face {
+  font-family: Niconne;
+  src: url(Niconne-Regular.ttf);
+}
+
+body{
+  background-image: linear-gradient(rgba(96, 95, 95, 1), rgba(203, 203, 203, 1));
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  font-family: PoppinsRegular;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #605F5F;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-left: none;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    z-index: 999px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 1px;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #CBCBCB;
+    color: white;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    width: 100%;
+  }
+
+  .helpfaq {
+    display: flex;
+    background-image: linear-gradient(#C4C4C4, #605F5F);
+  }
+  .helpfaq p{
+    padding-left: 1320px;
+    color: white;
+    padding-top: 10px;
+  }
+  .helpfaqimg {
+    
+    width: 18.66px;
+    height: 12.44px;
+    left: 50px;
+    padding-top: 20px;
+    padding-left: 70px;
+  }
+
+  .helpfaqdrop {
+    height: 5.075px;
+    width: 8.66px;
+    padding-top: 23px;
+  }
+  .searchbar {
+    margin-top: 5px;
+    margin-left: 400px;
+    border-radius: 10px;
+    height: 38.57px;
+    width: 600px;
+  }
+  .discount{
+    color: #ffffff;
+    background-image: linear-gradient(#C4C4C4, #605F5F);
+    margin-bottom: 6px !important;
+    padding-bottom: 5px !important;
+    margin-top: 73px;
+    padding-top: 73px;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    width: 100vw;
+  }
+  .winter {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Nicomoji';
+    margin-bottom: 0px;;
+    width: 100%;
+  }
+  .winter center {
+    font-family: 'Nicomoji';
+  }
+  .limited {
+    color: #ffffff;
+    font-family: PoppinsBold !important;
+    font-size: 5px !important;
+    margin-top: 0px;;
+    margin-bottom: 0px;
+  }
+  .learn {
+    width: 80%;
+    justify-content: center;
+    background-image: url("assets/unsplash_7cERndkOyDw.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 900px;
+    border: none;
+  }
+  .learn button{
+    background-color: #5C5A5A;
+    color: white;
+    border: none;
+    font-family: PoppinsExtraBold;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50rem;
+  }
+  .learn button:hover{
+    background: #CBCBCB;
+    color: white;
+  }
+  .category{
+    display: flex;
+    margin-top: 50px;
+  }
+  .categorydiv{
+    width: 33.33%;
+  }
+  .categorydiv p {
+    font-family: MirzaBold;
+    font-size: 32px;
+    margin-top: 0px;
+  }
+  .featuredhead {
+    margin-right: 0px !important;
+    background-color: #615D5D;
+    color: white;
+    margin-top: 200px;
+    width: 100vw;
+  }
+  .featured{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+  }
+  .featured1{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+  .featureddiv1 {
+    width: 100%;
+    height: 100%;
+    margin-right: 135px;
+    margin-left: 270px;
+  }
+  .featureddiv {
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+  }
+  .learn2 {
+    width: 80%;
+    justify-content: center;
+    height: 900px;
+    border: none;
+  }
+  .learn2 button{
+    background-color: #5C5A5A;
+    color: white;
+    border: none;
+    font-family: PoppinsExtraBold;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .learn2 button:hover{
+    background: #CBCBCB;
+    color: white;
+  }
+  .trendinghead {
+    background-color: #615D5D;
+    color: white;
+    margin-top: 10px !important;
+    width: 100vw;
+  }
+  .brands {
+    height: 250px;
+    width: 100vw;
+    background-image: url("assets/brands.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px !important;
+  }
+  .socials {
+    height: 90px;
+    width: 100vw;
+    background-image: url("assets/socials.jpg");
+    background-size: cover;
+    background-color: #898989;
+    background-repeat: no-repeat;
+    margin-top: 10px !important;
+    margin-bottom: 5px;
+  }
+  .footer {
+    display: flex;
+    width: 100vw;
+    height: 20px;
+    color: white;
+    background-color: #898989;
+    margin-bottom: 10px !important;
+  }
+  .others button{
+    background-color: #5C5A5A;
+    color: white;
+    border: none;
+    font-family: PoppinsExtraBold;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0rem;
+  }
+  .others button:hover{
+    background: #CBCBCB;
+    color: white;
+  }
+
+
+
+  
